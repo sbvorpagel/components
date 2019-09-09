@@ -2,7 +2,7 @@ import React from 'react';
 import { CardNews, Content, List } from '../index';
 
 interface News {
-    id: string,
+    id: string
     title: string
     date: string
     imageURL: string
