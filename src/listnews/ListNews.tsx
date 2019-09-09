@@ -26,6 +26,7 @@ const ListNews: React.FC<Prop> = (prop) => {
         <List>
             {(data || []).map((news: News) => (
                 <CardNews
+                    key={`CardNews-${news.id}`}
                     date={news.date}
                     imageURL={news.imageURL || defaultImage}
                     category={news.category}
