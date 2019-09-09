@@ -1,4 +1,3 @@
-import Text from './text/Text';
 import {
     IonApp as App,
     IonCard as Card,
@@ -10,6 +9,7 @@ import {
     IonItem as Item,
     IonLabel as Label,
     IonList as List,
+    IonText as Text,
 } from '@ionic/react';
 
 import CardNews from './cardnews/CardNews';

@@ -6,8 +6,12 @@ import {
     CardSubtitle
 } from '../index';
 
-interface Prop {
-    onClick: Function, imageURL: string, title: string, category?: string, date: string
+interface Props {
+    onClick: Function
+    imageURL: string
+    title: string
+    category?: string
+    date: string
 }
 
 const handleOnClick = (event: MouseEvent, callback: Function) => {
@@ -22,7 +26,7 @@ const getSubtitle = (date: string, category?: string): string => {
     return date;
 }
 
-const CardNews: React.FC<Prop> = (prop) => {
+const CardNews: React.FC<Props> = (prop) => {
     const { onClick, imageURL, title, category, date } = prop;
 
     return (

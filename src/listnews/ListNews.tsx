@@ -1,5 +1,5 @@
 import React from 'react';
-import { CardNews, Content, List } from '../index';
+import { CardNews, List } from '../index';
 
 interface News {
     id: string
@@ -9,7 +9,7 @@ interface News {
     category?: string
 }
 
-interface Prop {
+interface Props {
     defaultImage: string
     onClick: Function
     data: Array<News>
@@ -19,14 +19,14 @@ const handleOnClick = (id: string, callback: Function) => {
     callback(id);
 }
 
-const ListNews: React.FC<Prop> = (prop) => {
-    const { defaultImage, data, onClick } = prop;
+const ListNews: React.FC<Props> = (props) => {
+    const { defaultImage, data, onClick } = props;
 
     return (
         <List>
             {(data || []).map((news: News) => (
                 <CardNews
-                    key={`CardNews-${news.id}`}
+                    key={`card-news-${news.id}`}
                     date={news.date}
                     imageURL={news.imageURL || defaultImage}
                     category={news.category}
