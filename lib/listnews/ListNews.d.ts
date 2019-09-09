@@ -6,11 +6,11 @@ interface News {
     imageURL: string;
     category?: string;
 }
-interface Prop {
+interface Props {
     defaultImage: string;
     onClick: Function;
     data: Array<News>;
 }
-declare const ListNews: React.FC<Prop>;
+declare const ListNews: React.FC<Props>;
 export default ListNews;
 //# sourceMappingURL=ListNews.d.ts.map
