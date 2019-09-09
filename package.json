@@ -1,0 +1,20 @@
+{
+  "name": "components",
+  "version": "0.0.0",
+  "description": "Atos6 components",
+  "main": "lib/index.js",
+  "types": "lib",
+  "scripts": {
+    "build": "rm -rf lib && tsc -p ."
+  },
+  "author": "",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.0.0 "
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "react": "^16.9.0",
+    "typescript": "^3.6.2"
+  }
+}
