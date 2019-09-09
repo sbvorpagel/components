@@ -14,6 +14,7 @@ import {
 
 import CardNews from './cardnews/CardNews';
 import ListNews from './listnews/ListNews';
+import News from './news/News';
 
 export {
     //Basic packages
@@ -27,6 +28,7 @@ export {
     Item,
     Label,
     List,
+    News,
     Text,
 
     //Atos6 components
