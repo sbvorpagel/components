@@ -1,8 +1,9 @@
 import React from 'react';
+import { IonText } from '@ionic/react';
 
 const Text: React.FC<{ value: string }> = ({ value }) => {
     return (
-        <p>{value}</p>
+        <IonText><p>{value}</p></IonText>
     );
 }
 

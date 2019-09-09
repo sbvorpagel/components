@@ -1,6 +1,6 @@
 {
   "name": "@atos6/components",
-  "version": "0.0.0",
+  "version": "0.2.0",
   "description": "Atos6 components",
   "main": "lib/index.js",
   "types": "lib",
@@ -10,11 +10,18 @@
   "author": "",
   "license": "MIT",
   "peerDependencies": {
-    "react": ">=16.0.0 "
+    "react": ">=16.0.0",
+    "@ionic/react": ">=4.0.0",
+    "react-router": ">=5.0.0",
+    "react-router-dom": ">=5.0.0"
   },
   "devDependencies": {
+    "@ionic/react": "^4.8.0-rc.1",
     "@types/react": "^16.9.2",
     "react": "^16.9.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
     "typescript": "^3.6.2"
-  }
+  },
+  "dependencies": {}
 }
