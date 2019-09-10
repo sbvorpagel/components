@@ -10,13 +10,13 @@ interface Props {
 const News: React.FC<Props> = (props) => {
     const { title, imageURL, content } = props;
 
-    // if (!title) {
+    if (!title) {
         return (
             <Content>
                 <Skeleton style={{ width: '100%', heigth: '35%' }} />
                 <h2>
                     <Skeleton animated style={{ paddingLeft: '30%', paddingRigth: '30%', width: '100%', heigth: '42px' }} />
-                </h2>
+                </h2>defaultImage
                 <p>
                     <Skeleton animated style={{ width: '80%', heigth: '18px' }} />
                 </p>
@@ -45,8 +45,8 @@ const News: React.FC<Props> = (props) => {
                     <Skeleton animated style={{ width: '50%', heigth: '18px' }} />
                 </p>
             </Content>
-        )
-    // } 
+        );
+    } 
 
     return (
         <Content>
