@@ -10,6 +10,7 @@ import {
     IonLabel as Label,
     IonList as List,
     IonText as Text,
+    IonSkeletonText as Skeleton,
 } from '@ionic/react';
 
 import CardNews from './cardnews/CardNews';
@@ -28,10 +29,11 @@ export {
     Item,
     Label,
     List,
-    News,
     Text,
+    Skeleton,
 
     //Atos6 components
     CardNews,
     ListNews,
+    News,
 }
