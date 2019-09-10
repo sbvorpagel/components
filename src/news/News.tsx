@@ -13,18 +13,36 @@ const News: React.FC<Props> = (props) => {
     // if (!title) {
         return (
             <Content>
-                <Skeleton style={{ width: '100%', heigth: '40%' }} />
+                <Skeleton style={{ width: '100%', heigth: '35%' }} />
                 <h2>
-                    <Skeleton animated style={{ width: '60%' }} />
+                    <Skeleton animated style={{ paddingLeft: '30%', paddingRigth: '30%', width: '100%', heigth: '42px' }} />
                 </h2>
                 <p>
-                    <Skeleton animated style={{ width: '80%' }} />
+                    <Skeleton animated style={{ width: '80%', heigth: '18px' }} />
                 </p>
                 <p>
-                    <Skeleton animated style={{ width: '100%' }} />
+                    <Skeleton animated style={{ width: '100%', heigth: '18px' }} />
                 </p>
                 <p>
-                    <Skeleton animated style={{ width: '50%' }} />
+                    <Skeleton animated style={{ width: '50%', heigth: '18px' }} />
+                </p>
+                <p>
+                    <Skeleton animated style={{ width: '80%', heigth: '18px' }} />
+                </p>
+                <p>
+                    <Skeleton animated style={{ width: '100%', heigth: '18px' }} />
+                </p>
+                <p>
+                    <Skeleton animated style={{ width: '50%', heigth: '18px' }} />
+                </p>
+                <p>
+                    <Skeleton animated style={{ width: '80%', heigth: '18px' }} />
+                </p>
+                <p>
+                    <Skeleton animated style={{ width: '100%', heigth: '18px' }} />
+                </p>
+                <p>
+                    <Skeleton animated style={{ width: '50%', heigth: '18px' }} />
                 </p>
             </Content>
         )
