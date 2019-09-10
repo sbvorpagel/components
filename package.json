@@ -1,6 +1,6 @@
 {
   "name": "@atos6/components",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Atos6 components",
   "main": "lib/index.js",
   "types": "lib",

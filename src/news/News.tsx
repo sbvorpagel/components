@@ -16,7 +16,7 @@ const News: React.FC<Props> = (props) => {
                 <Skeleton style={{ width: '100%', heigth: '35%' }} />
                 <h2>
                     <Skeleton animated style={{ paddingLeft: '30%', paddingRigth: '30%', width: '100%', heigth: '42px' }} />
-                </h2>defaultImage
+                </h2>
                 <p>
                     <Skeleton animated style={{ width: '80%', heigth: '18px' }} />
                 </p>
@@ -50,9 +50,9 @@ const News: React.FC<Props> = (props) => {
 
     return (
         <Content>
-            <img src={imageURL} />
-            <Text><h2>{title}</h2></Text>
-            <Text><p>{title}</p></Text>
+            <img style={{ width: '100%' }} src={imageURL} />
+            <Text style={{ textAligth: 'center' }}><h2>{title}</h2></Text>
+            <Text><p>{content}</p></Text>
         </Content>
     );
 }
